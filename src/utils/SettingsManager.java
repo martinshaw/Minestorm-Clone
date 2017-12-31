@@ -18,9 +18,9 @@ public class SettingsManager {
 	
 	public void populate() {
 		this.map = new HashMap<String, Object>();
-		this.map.put("WINDOW_WIDTH", 1024);
-		this.map.put("WINDOW_HEIGHT", 800);
-		this.map.put("GAME_TITLE", "Game Template");
+		this.map.put("WINDOW_WIDTH", 850);
+		this.map.put("WINDOW_HEIGHT", 1000);
+		this.map.put("GAME_TITLE", "Minestorm by Martin Shaw");
 	}
 	
 	public Object get(String _key){

@@ -19,6 +19,7 @@ public class Game extends PApplet {
 			(int) settings.get("WINDOW_WIDTH"),
 			(int) settings.get("WINDOW_HEIGHT")
 		);
+		smooth();
     }
 
     public void setup(){
