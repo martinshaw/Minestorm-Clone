@@ -6,5 +6,6 @@ public abstract class BaseScreen {
 	
 	public abstract void move();
 	public abstract void draw();
-
+	public abstract void keyPressed();
+	
 }

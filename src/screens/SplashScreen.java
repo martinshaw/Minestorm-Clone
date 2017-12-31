@@ -51,4 +51,10 @@ public class SplashScreen extends BaseScreen {
 		
 	}
 
+	@Override
+	public void keyPressed() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -18,8 +18,8 @@ public class SettingsManager {
 	
 	public void populate() {
 		this.map = new HashMap<String, Object>();
-		this.map.put("WINDOW_WIDTH", 850);
-		this.map.put("WINDOW_HEIGHT", 1000);
+		this.map.put("WINDOW_WIDTH", 1224);
+		this.map.put("WINDOW_HEIGHT", 900);
 		this.map.put("GAME_TITLE", "Minestorm by Martin Shaw");
 	}
 	

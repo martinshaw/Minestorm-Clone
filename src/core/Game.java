@@ -23,8 +23,9 @@ public class Game extends PApplet {
     }
 
     public void setup(){
+    	frameRate(60);
     	background(0);
-    	changeScreen(new SplashScreen(this, this));
+    	changeScreen(new Level1Screen(this, this));
     }
 
 	public void draw(){		
@@ -33,6 +34,10 @@ public class Game extends PApplet {
 
 		surface.setTitle((String) settings.get("GAME_TITLE"));
     }
+	
+	public void keyPressed() {
+		currentScreen.keyPressed();
+	}
     
 	public void changeScreen(BaseScreen _screen){
 		this.currentScreen = _screen;
